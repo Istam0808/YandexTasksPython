@@ -8,7 +8,7 @@
 # Одно число - искомый номер дня.
 
 
-minutes = int(input())
+minutes = 15941
 minutes_in_day = 24 * 60
 day_number = minutes // minutes_in_day + 1
 
