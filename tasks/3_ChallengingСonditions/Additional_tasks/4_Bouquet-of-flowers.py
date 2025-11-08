@@ -25,29 +25,31 @@
 #===========================================================================================
 #==============SOLUTION=============
 
-flower_first = input()
-flower_second = input()
-flower_third = input()
-available_flowers = input()
+# flower_first = input()
+# flower_second = input()
+# flower_third = input()
+# available_flowers = input()
 
-result = ""
+# result = ""
 
-if flower_first in available_flowers:
-    result = flower_first
+# if flower_first in available_flowers:
+#     result = flower_first
 
-if flower_second in available_flowers:
-    if result:
-        result = result + ", " + flower_second
-    else:
-        result = flower_second
+# if flower_second in available_flowers:
+#     if result:
+#         result = result + ", " + flower_second
+#     else:
+#         result = flower_second
 
-if flower_third in available_flowers:
-    if result:
-        result = result + ", " + flower_third
-    else:
-        result = flower_third
+# if flower_third in available_flowers:
+#     if result:
+#         result = result + ", " + flower_third
+#     else:
+#         result = flower_third
 
-if result:
-    print("В букете есть " + result + ".")
-else:
-    print("Таких цветов в букете нет.")
+# if result:
+#     print("В букете есть " + result + ".")
+# else:
+#     print("Таких цветов в букете нет.")
+
+
