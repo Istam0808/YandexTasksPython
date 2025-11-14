@@ -12,3 +12,4 @@ strin = input("")
 while strin != "":
     print(strin)
     strin = input("")
+    
