@@ -20,3 +20,5 @@ if value == n:
     print(power)
 else:
     print("НЕТ")
+
+    
