@@ -21,6 +21,7 @@ if value == n:
 else:
     print("НЕТ")
 
+
     
 
     
