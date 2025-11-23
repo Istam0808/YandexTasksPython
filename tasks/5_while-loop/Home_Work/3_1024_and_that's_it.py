@@ -7,26 +7,40 @@
 # Одно целое число (показатель степени) или строка «НЕТ».
 
 
-n = int(input())
+# n = int(input())
 
-power = 0
-value = 1
+# power = 0
+# value = 1
 
-while value < n:
-    value *= 2
-    power += 1
+# while value < n:
+#     value *= 2
+#     power += 1
 
-if value == n:
-    print(power)
-else:
-    print("НЕТ")
-
-
-    
-
-    
+# if value == n:
+#     print(power)
+# else:
+#     print("НЕТ")
 
 
     
 
     
+
+
+    
+# main_num = int(input())
+
+# while main_num <= 0:
+#     number = int(input())
+#     main_num = main_num - number
+#     print(main_num)
+    
+
+# t = ("Apple", "Banana", "Cherry")
+# a,b,c = t
+# print("A: ", a)
+# print("B: ", b)    
+# print("C: ", c)    
+
+data = [1, 2, 3, 4, 5]
+print(data[-3:])
